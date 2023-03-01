@@ -1,0 +1,24 @@
+.foot{
+    background-color: rgb(72, 126, 124);
+    text-align: center;
+    padding:30px 0 10px 0;
+}
+.foot a{
+    display: inline-flex;
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+}
+.foot i{
+    margin:0 10px 30px 10px;
+}
+@media(max-width:1024px){
+    .foot{
+        padding:10px;
+    }
+    .foot a{
+        margin:30px 10px 10px;
+        display:inline-block;
+    }
+    
+}

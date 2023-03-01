@@ -1,0 +1,137 @@
+.contact{
+    margin:20px 0;
+}
+.contact h1{
+    font-size:3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact h2{
+    margin: auto;
+    font-size:2rem;
+    width:78%;
+}
+.frm-cd{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:30px 0 0 0;
+}
+.frm{
+    width:40%;
+    align-items: center;
+    display:block;
+    background-color: #f2f2f2;
+    margin:auto;
+    padding:20px;
+}
+.frm p{
+    font-size: 1.5rem;
+}
+.name,.mail{
+    font-size:1.3em;
+    margin:5px 0 20px;
+    width:70%;
+    height:40px;
+    border-width: 2px;
+}
+.tar{
+    border-width: 2px;
+}
+.qry{
+    margin:20px 0;
+}
+.qry form{
+    display: block;
+}
+.sbtn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding:10px;
+    color:white;
+    background-color: black;
+}
+.sbtn:hover{
+    cursor: pointer;
+    color:black;
+    background-color: #f2f2f2;
+}
+.cd{
+width:40%;
+}
+.cd h1{
+    text-align: left;
+    font-size:2.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.lks ul{
+    font-size: 2rem;
+    display:block;
+}
+.lks ul li{
+    padding:20px 30px 30px 0;
+}
+.ph,.ml{
+    margin:50px 0;
+    display: flex;
+    text-align: left;
+}
+.lks ul li:hover{
+    cursor:pointer;
+}
+@media(max-width:1024px){
+    .frm-cd{
+        flex-direction: column;
+    }
+    .frm{
+        width:70%;
+    }
+    .cd{
+        width:70%;
+        margin:auto;
+        padding-top: 50px;
+        }
+        .contact h2{
+            text-align: center;
+            width:80%;
+        }
+}
+@media(max-width:767px){
+    .frm{
+        width:90%;
+    }
+    .name,.mail{
+        width:60%;
+    }
+    .lks ul{
+        font-size: 1.75rem;
+    }
+    .cd h1{
+        font-size:2.5rem;
+        font-weight: 500;
+    }
+    .contact h2{
+        width:90%;
+        font-weight: 400;
+    }
+}
+@media(max-width:580px){
+    .name,.mail{
+        width:80%;
+    }
+    .contact h2{
+        width:100%;
+        font-weight: 400;
+    }
+    .cd h1{
+        font-size:2.5rem;
+        font-weight: 500;
+    }
+    .lks ul{
+        font-size: 1.5rem;
+    }
+}

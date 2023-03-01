@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/7832eb400e.js" crossorigin="anonymous"></script>
+     <!-- jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script>
+         $(document).ready(function(){
+ 
+             $(".card-head").click(function(){
+ 
+                 if($(this).next(".card-body").hasClass("active")){
+ 
+                 $(this).next(".card-body").removeClass("active").slideUp()
+                 $(this).children(".add").text("+");
+                 }
+                 else{
+                
+                     $(this).next(".card-body").addClass("active").slideDown()
+                 $(this).children(".add").text("-");
+                 }
+             })
+         })
+     </script>
+</head>
+<body>
+    <header class="head">
+            <div class="line">
+                <div class="logo">
+                    <p>business bost</p>
+                </div>
+                <nav class="links">
+                   <ul>
+                      <li><a href="index.html">home</a></li>
+                      <li><a href="services.html" class="active">Services</a></li>
+                      <li><a href="about.html">about us</a></li>
+                      <li><a href="contact.html">contact us</a></li>
+                      
+                   </ul>
+                </nav>
+            </div>
+     </header>
+
+
+
+     <div class="s-head">
+        <div class="h-img">
+            <img src="images/simg2.jpg">
+        </div>
+        <div class="h-text">
+        <h1>services</h1>
+        <p>We offer a range of strategic services to
+          meet the unique and diverse needs of our clients.</p>
+        </div>
+     </div>
+
+
+     <div class="s-dis">
+        <div class="sdis">
+        <p>With years of experience, our staff has the capabilities and 
+            expertise to take your business to the next level. 
+             We combine our insights and skills work directly.
+              </p>
+            </div>
+            <div class="sdis-img">
+                <img src="images/aimg.jpeg">
+            </div>
+     </div>
+
+
+
+
+     <div class="acc">
+        <h1 class="acc-t">
+           <u>Services we provide</u>
+        </h1>
+
+      <div class="card">
+          <div class="card-head">
+              <h2>Analytics & insights</h2>
+              <h2 class="add">+</h2>
+          </div>
+          <div class="card-body active analysis">
+              <p>Empower your organization with greater access to data and insights. Create a unified view of enterprisewide data to build analytical and operational
+                 views for decision-making, and to automate end-to-end intelligent workflows. Intelligent workflows transform the way work gets done by providing 
+                 employees with insights that improve responsiveness, quality and accuracy</p>
+          </div>
+      </div>
+  
+          <div class="card">
+              <div class="card-head">
+                  <h2>Application Services</h2><h2 class="add">+</h2>
+              </div>
+              <div class="card-body app">
+                  <p>Our services improves efficiency with automation, increases agility with DevOps and moves the focus from fault detection to prevention using AI — 
+                    increasing operational efficiencies, enabling quick responses to changing business needs and
+                     implementing continuous innovation across your application portfolio..</p>
+              </div>
+          </div>
+  
+                <div class="card">
+                  <div class="card-head">
+                      <h2>Artificial Intellegence</h2><h2 class="add">+</h2>
+                  </div>
+                  <div class="card-body ai">
+                      <p>Our global expertise, combined with the latest knowhow from technology partners and hyperscalers makes your business ready for AI. We speed 
+                        up data preparation with automated workflows and a modern data fabric.<br>We combine reliable, modular, scalable solutions with your existing data 
+                    architecture to jumpstart your data modernization journey.</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-head">
+                        <h2>Automation</h2><h2 class="add">+</h2>
+                    </div>
+                    <div class="card-body auto">
+                        <p>Intelligent automation, like RPA (robotic process automation), natural language processing and virtual agents, can help you improve
+                             efficiency and productivity in many ways. But it doesn't stop there. Self-learning processes can help you empower employees, 
+                            strengthen customer relationships and open new ways to innovate.</p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-head">
+                        <h2>Consulting</h2><h2 class="add">+</h2>
+                    </div>
+                    <div class="card-body cons">
+                        <p>Our management consulting services focus on our clients' most critical issues and opportunities: strategy, marketing, organization, operations, technology, 
+                            transformation, digital, advanced analytics, corporate finance, mergers & acquisitions and sustainability across all industries and geographies. 
+                            We bring deep, functional expertise, but are known for our holistic perspective: we capture value across boundaries and between the silos of any organization.</p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-head">
+                        <h2>Marketing</h2><h2 class="add">+</h2>
+                    </div>
+                    <div class="card-body mar">
+                        <p>Transform your marketing with a practical, proven combination of analytics, customer-centric data insights and a test-and-learn approach. We'll help you make 
+                            immediate progress and build the internal skills you need to continue delivering 
+                            the right messages to your customers. We bring a powerful combination of analytics, creativity and business understanding to your organization's marketing efforts.</p>
+                    </div>
+                  </div>
+
+                 <div class="card">
+                    <div class="card-head">
+                        <h2>Cost Tronsformation</h2><h2 class="add">+</h2>
+                    </div>
+                    <div class="card-body cost">
+                        <p>True cost transformation is about simplifying, refocusing and strengthening your organization so you can pursue growth and provide a better 
+                            customer experience. Our approach is both holistic and customizable, enabling you to cultivate, reward and continually improve a sustainable cost 
+                            management culture.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <div class="card-head">
+                        <h2>Quality Engineering</h2><h2 class="add">+</h2>
+                    </div>
+                    <div class="card-body qua">
+                        <p>Our Quality Engineering services are designed to power speed, quality and productivity with an intelligence and insights driven approach. Whether you 
+                            want to bring new software to market at a faster clip or transform your testing function and workforce—we have the right skills and capabilities to help you 
+                            succeed.</p>
+                    </div>
+                  </div>
+    </div>
+
+    <footer class="foot">
+        <a href="#"><i class="icons fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="#"><i class="icons fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="#"><i class="icons fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="#"><i class="icons fa-brands fa-linkedin fa-2xl"></i></a>
+            
+            <p>© All Rights Reserved</p>
+    </footer>
+</body>
+</html>
